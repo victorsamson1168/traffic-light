@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .cararea {
+  width: 60vw;
+  height: 90vh;
+  border: black solid 3px;
+}
+
+.outer {
+  margin: 50px;
+  width: 20vw;
+  height: 90vh;
+  border: black solid 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.outer .circlered {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.outer .circleyellow {
+  height: 180px;
+  width: 180px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.outer .circlegreen {
+  height: 180px;
+  width: 180px;
+  background-color: green;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=styles.css.map */
