@@ -15,6 +15,10 @@ body{
         border: black solid 3px;
     }
 }
+.car{
+    height: 40px;
+    width:40px;
+}
 
 .outer{
     margin: 50px;
@@ -33,19 +37,19 @@ body{
         border-radius: 50%;
 
         
-        background-color: red;
+        background-color: darkred;
     }
     .circleyellow{
         height: $side;
         width:$side;
-        background-color: yellow;
+        background-color:darkgoldenrod;
         border-radius: 50%;
 
     }
     .circlegreen{
         height: $side;
         width: $side;
-        background-color: green;
+        background-color: darkgreen;
         border-radius: 50%;
     }
 }

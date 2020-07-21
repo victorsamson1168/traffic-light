@@ -25,6 +25,11 @@ body {
   border: black solid 3px;
 }
 
+.car {
+  height: 40px;
+  width: 40px;
+}
+
 .outer {
   margin: 50px;
   width: 20vw;
@@ -49,20 +54,20 @@ body {
   height: 180px;
   width: 180px;
   border-radius: 50%;
-  background-color: red;
+  background-color: darkred;
 }
 
 .outer .circleyellow {
   height: 180px;
   width: 180px;
-  background-color: yellow;
+  background-color: darkgoldenrod;
   border-radius: 50%;
 }
 
 .outer .circlegreen {
   height: 180px;
   width: 180px;
-  background-color: green;
+  background-color: darkgreen;
   border-radius: 50%;
 }
 /*# sourceMappingURL=styles.css.map */
