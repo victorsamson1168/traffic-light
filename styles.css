@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding :0;
 }
 
 .container {
@@ -31,6 +32,7 @@ body {
   width: 40px;
   position: absolute;
 }
+
 
 .outer {
   margin: 50px;
