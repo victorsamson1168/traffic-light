@@ -6,6 +6,7 @@ let car=document.getElementById("car");
 // let carplaceleft=car.offsetLeft;
 // let carplace=car.offsetHeight;
 // let carplacetop=car.offsetWidth;
+//kooooijjbnk
 const ti=500;
 let rand=Math.floor((Math.random()*3)+1);
 document.onkeydown = checkKey;
