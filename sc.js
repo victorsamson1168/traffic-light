@@ -14,7 +14,7 @@ function checkKey(e) {
 
     if (e.keyCode == '38') {
         console.log("up arrow"+"   "+rand);
-        car.style.top=(parseInt(car.style.top)-5)+'px';
+        car.style.top=(parseInt(car.style.top)-8)+'px';
         console.log(car.style.top+"  ");
 
         
@@ -22,20 +22,20 @@ function checkKey(e) {
     }
     else if (e.keyCode == '40') {
         console.log("down arrow"+"   "+rand);
-        car.style.top=(parseInt(car.style.top)+5)+'px';
+        car.style.top=(parseInt(car.style.top)+8)+'px';
         console.log(car.style.top+"  ");
 
         // down arrow
     }
     else if (e.keyCode == '37') {
         console.log("left arrow"+"   "+rand);
-        car.style.left=(parseInt(car.style.left)-5)+'px';
+        car.style.left=(parseInt(car.style.left)-8)+'px';
 
        // left arrow
     }
     else if (e.keyCode == '39') {
         console.log("right arrow"+"   "+rand);
-        car.style.left-=(parseInt(car.style.left)+5)+'px';
+        car.style.left-=(parseInt(car.style.left)+81)+'px';
 
        // right arrow
     }
@@ -44,29 +44,29 @@ function checkKey(e) {
 
 
  function changcolor(){
-    rand=Math.floor((Math.random()*3)+1);
-    if(rand===1)
+    random=Math.floor((Math.random()*3)+1);
+    if(random===1)
     {
         
         redcir.style.backgroundColor="red";
         greencir.style.backgroundColor="darkgreen"
         yellowcir.style.backgroundColor="darkgoldenrod"        
     }
-    else if(rand===2)
+    else if(random===2)
     {
         
         redcir.style.backgroundColor="darkred";
         greencir.style.backgroundColor="darkgreen"
         yellowcir.style.backgroundColor="yellow"        
     }
-    else if(rand===3)
+    else if(random===3)
     {
         
         redcir.style.backgroundColor="darkred";
         greencir.style.backgroundColor="lightgreen"
         yellowcir.style.backgroundColor="darkgoldenrod"        
     }
-     console.log(rand);
+     console.log(random);
      setTimeout(function(){changcolor()},ti);
      
 
