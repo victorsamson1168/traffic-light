@@ -1,4 +1,4 @@
-let redcir=document.getElementById("redp");
+let redcir=document.getElementById("redp");//samson
 let greencir=document.getElementById("grep");
 let yellowcir=document.getElementById("yelp");
 let car=document.getElementById("car");
